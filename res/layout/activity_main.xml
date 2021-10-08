@@ -1,0 +1,289 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:screenOrientation="portrait" >
+   
+    <TextView
+        android:id="@+id/debugText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size"
+        android:paddingBottom="@dimen/padding_size"
+        android:paddingTop="@dimen/padding_size"
+        tools:context=".MainActivity" />
+   
+    <ImageView
+        android:id="@+id/Acurve"
+        android:layout_height="0dp" 
+        android:layout_width="match_parent"
+        android:layout_weight="3" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <EditText 
+            android:id="@+id/Ainput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:text="Stirling Temperature"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" />
+   
+        <TextView
+            android:id="@+id/Atext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            tools:context=".MainActivity" />
+        
+    </LinearLayout>
+   
+   <ImageView
+        android:id="@+id/Bcurve"
+        android:layout_height="0dp" 
+        android:layout_width="match_parent"
+        android:layout_weight="3" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <EditText 
+            android:id="@+id/Binput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:text="TD_Sensor Temperature"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" />
+   
+        <TextView
+            android:id="@+id/Btext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            tools:context=".MainActivity" />
+        
+    </LinearLayout>
+   
+   <ImageView
+        android:id="@+id/Ccurve"
+        android:layout_height="0dp" 
+        android:layout_width="match_parent"
+        android:layout_weight="3" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <EditText 
+            android:id="@+id/Cinput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:text="p1C Pressure"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" />
+   
+        <TextView
+            android:id="@+id/Ctext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            tools:context=".MainActivity" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <EditText 
+            android:id="@+id/loginInput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:hint="node"
+            android:text="login1.mpe.mpg.de"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" />
+            
+        <EditText 
+            android:id="@+id/usernameInput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:hint="username"
+            android:text="maxherr"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" /> 
+        
+        <EditText 
+            android:id="@+id/passwordInput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:inputType="textPassword"
+            android:hint="password"
+            android:text=""
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" />  
+        
+    </LinearLayout>
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <EditText 
+            android:id="@+id/nodeInput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:hint="node"
+            android:text="betria"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" />
+        
+        <EditText 
+            android:id="@+id/dateInput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:hint="date"
+            android:text="2021????"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" />
+        
+        <EditText 
+            android:id="@+id/durationInput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:hint="duration"
+            android:text="1d"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" />
+        
+        <EditText 
+            android:id="@+id/backInput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:inputType="text"
+            android:hint="time back"
+            android:text="0h"
+            android:textSize="@dimen/font_size"
+            android:paddingBottom="@dimen/padding_size"
+            android:paddingTop="@dimen/padding_size"
+            android:paddingLeft="@dimen/border_size"
+            android:paddingRight="@dimen/border_size"
+            tools:context=".MainActivity" />
+        
+    </LinearLayout> 
+
+    <Button 
+        android:id="@+id/request"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size"
+        android:text="request"
+        android:paddingBottom="@dimen/padding_size"
+        android:paddingTop="@dimen/padding_size"
+        android:paddingLeft="@dimen/padding_size"
+        android:paddingRight="@dimen/padding_size"
+        tools:context=".MainActivity" />
+      
+</LinearLayout>
